@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.site-btn {
+    display: inline-block;
+    min-width: 300px;
+    font-size: 18px;
+    background-color: rgb(15, 76, 133);
+    border: 1px solid #0F4C85;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition-timing-function: ease-in-out;
+}
+
+.site-btn:hover {
+    border: 1px solid #FE0000;
+    background-color: #fff;
+    color: #FE0000;
+}
+
+p .big {
+    font-size: 12px;
+    color: rgba(0, 16, 51, 0.75);
+}
+
+
+.container {
+    background: rgb(243, 243, 249);
+}
+
+
+/*side-navbar*/
+
+
+.side-navbar {
+    padding: 20px;
+    background-color: rgb(15, 76, 133);
+    height: 100%;
+    min-height: 773px;
+}
+
+.side-navbar .logo {
+    text-align: center;
+    background-color: rgb(15, 76, 133);
+}
+
+.side-navbar .logo img {
+    max-width: 150px;
+    border-radius: 12px;
+}
+
+
+
+/*top-right-navbar*/
+
+.top-right-navbar {
+    background: rgb(243, 243, 249);
+}
+
+.top-navbar {
+    background-color: #fff;
+}
+
+.top-right-navbar a {
+    text-decoration: none;
+    color: #0F4C85;
+}
+
+.search-input .form-control {
+    border: none;
+    background-color: rgb(243, 243, 249);
+    color: #495057;
+}
+
+/* icons-button */
+
+.btn-2 {
+    border: 1px solid transparent;
+    background: transparent;
+    padding: 0 16px;
+}
+
+
+/* profile-main */
+
+.profile-main .profile-btn {
+    padding: 5px 5px;
+    border: 1px solid transparent;
+}
+
+.profile-main .dropdown-toggle::after {
+    display: none;
+}
+
+.profile-main button {
+    background: transparent;
+}
+
+.profile-main{
+    max-width: 83px;
+    margin: 0 auto;
+}
+
+.profile {
+    background-color: rgb(243, 243, 249);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.profile img {
+    max-width: 35px;
+    border-radius: 55%;
+}
+
+.profile p {
+    margin-bottom: 2px;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.profile-dropdown {
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(30, 32, 37, .12);
+    color: #0F4C85;
+}
+
+.profile-dropdown a:hover {
+    color: #FE0000;
+}
+
+.profile-dropdown ul li a {
+    padding: 12px 0;
+}
+
+.profile-dropdown h6 {
+    font-size: 14px;
+}
+
+.profile-dropdown i {
+    margin-right: 12px;
+}
+
+.profile-dropdown li {
+    padding: 7px 0;
+}
+
+/*section-1*/
+
+.section-1 {
+    background-color: rgb(243, 243, 249);
+    padding: 20px;
+}
+
+.section-3-btn {
+    text-align: end;
+    margin-bottom: 12px;
+}
+
+
+.modal-btn {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.section-1 .site-btn {
+    min-width: 120px;
+    font-size: 14px;
+    padding: 7px 12px;
+}
+
+/* Collapse btn  */
+
+.btn-3 {
+    color: rgb(255, 255, 255, 0.60);
+    background-color: #0F4C85;
+    text-align: left;
+    transition: all .3s;
+}
+
+
+.btn-3:hover {
+    color: #FE0000;
+    font-weight: 700;
+}
+
+.btn-3:focus{
+    color: #FE0000;
+    font-weight: 700;
+}
+
+
+
+.btn-3 i {
+    margin: 5px;
+}
+
+.link-body-emphasis {
+    color: rgb(255, 255, 255, 0.60) !important;
+}
+
+.link-body-emphasis:hover {
+    color: #FE0000 !important;
+}
+
+
+/*menu*/
+
+.menu h3 {
+    color: rgb(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.menu h3:hover {
+    color: #FE0000;
+}
+
+
+.menu ul li {
+    list-style-type: none;
+    padding: 7px 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.60);
+    font-size: 13px;
+}
+
+.menu ul li a:hover {
+    color: #FE0000;
+}
+
+
+.menu ul li {
+    list-style-type: none;
+    padding: 7px 7px;
+}
+
+.menu .list-iteams {
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn-3 {
+        font-size: 13px;
+    }
+
+    .profile img {
+        max-width: 24px;
+    }
+
+    .profile-main {
+        max-width: 130px;
+    }
+
+    .side-navbar .logo img {
+        max-width: 120px;
+        border-radius: 7px;
+    }
+    .side-navbar {
+        padding: 20px 10px;
+    }
+
+    .profile p {
+        margin-bottom: 0px;
+        font-size: 11px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+   
+    .profile-main {
+        max-width: 82px;
+        margin: 0 auto;
+    }
+   
+    .menu ul li {
+        list-style-type: none;
+        padding: 7px 2px;
+    }
+
+    .side-navbar {
+        padding: 20px 10px;
+    }
+
+    .btn-3 {
+        font-size: 11px;
+    }
+
+    .side-navbar {
+        display: block;
+    }
+
+    .right label{
+        font-size: 12px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .btn-2 {
+        padding: 0 9px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .profile-dropdown {
+        padding: 10px;
+    }
+
+    .profile p {
+    display: none;
+    }
+
+    .btn-2 {
+        padding: 0 4px;
+    }
+
+    .profile img {
+        max-width: 32px;
+    }
+
+    .profile {
+        padding: 0px;
+        background: transparent;
+      
+    }
+
+    .profile-main .profile-btn {
+        padding: 10px 0px;
+    }
+
+    .profile-main {
+        max-width: 25px;
+    }
+
+    
+    .side-navbar {
+        display: none;
+    }
+
+    .section-1 .left{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .top-navbar {
+        padding: 6px 0;
+    }
+
+    .section-1 {
+        padding: 15px 4px;
+    }
+
+}
